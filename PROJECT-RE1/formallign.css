@@ -1,0 +1,88 @@
+body {
+  background-image: url("form2bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+label {
+  color: #fcfcfb;
+  font-weight: bold;
+  display: block;
+  font: 600 16px/18px "Open Sans", sans-serif;
+}
+.button {
+  background-color: #102f97;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  font: 600 16px/18px "Open Sans", sans-serif;
+}
+h3 {
+  background-color: rgb(28, 12, 97);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.form-row {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5em;
+}
+.form-row > label {
+  padding: 0.5em 0.2em 0.5em 0;
+  flex: 1;
+}
+.form-row > input {
+  flex: 7;
+}
+.form-row > input,
+.form-row > button {
+  padding: 1em;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 7px 75px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+.navbar {
+  background-color: white;
+  border-radius: 30px;
+  font: 600 16px/18px "Open Sans", sans-serif;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 13px 20px;
+}
+.navbar ul {
+  overflow: auto;
+}
+.navbar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: black;
+}
+.search {
+  float: right;
+  color: black;
+  fill: black;
+  padding: 12px 75px;
+}
+.navbar input {
+  border: 2px solid black;
+  border-radius: 14px;
+  padding: 3px 17px;
+  width: 129px;
+}
+.navbar li a:hover {
+  color: rgb(157, 11, 235);
+}

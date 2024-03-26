@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  color: #6a6f8c;
+  background: #c8c8c8;
+  font: 600 16px/18px "Open Sans", sans-serif;
+}
+.forget-pwd > a {
+  color: #dc3545;
+  font-weight: 500;
+}
+.forget-password .panel-default {
+  padding: 31%;
+  margin-top: -27%;
+}
+.forget-password .panel-body {
+  padding: 15%;
+  margin-bottom: -50%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img {
+  width: 40%;
+  margin-bottom: 10%;
+}
+
+.forget-password .dropdown {
+  width: 100%;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.forget-password .dropdown button {
+  width: 100%;
+}
+.forget-password .dropdown ul {
+  width: 100%;
+}
+
+input[type="button"] {
+  width: 120px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+select {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+}
+
+select:focus {
+  outline: none;
+}
+input[type="text"],
+textarea {
+  width: 253px;
+  height: 30px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+input[type="email"] {
+  width: 253px;
+  height: 30px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+button:hover {
+  background-color: darkblue;
+}
+
+button:active {
+  background-color: lightblue;
+}
+.navbar {
+  background-color: white;
+  border-radius: 30px;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 13px 20px;
+}
+.navbar ul {
+  overflow: auto;
+}
+.navbar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: black;
+}
+.search {
+  float: right;
+  color: black;
+  fill: black;
+  padding: 12px 75px;
+}
+.navbar input {
+  border: 2px solid black;
+  border-radius: 14px;
+  padding: 3px 17px;
+  width: 129px;
+}
+.navbar li a:hover {
+  color: rgb(166, 0, 255);
+}
